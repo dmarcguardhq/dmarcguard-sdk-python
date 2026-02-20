@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dmarcguard"
+version = "0.0.1"
+description = "Official Python SDK for DMARCGuard"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.8"
+authors = [
+    { name = "DMARCGuard", email = "support@dmarcguard.com" },
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[project.urls]
+Homepage = "https://github.com/dmarcguardhq/dmarcguard-sdk-python"
+Repository = "https://github.com/dmarcguardhq/dmarcguard-sdk-python"
