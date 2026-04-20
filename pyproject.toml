@@ -5,19 +5,68 @@ build-backend = "hatchling.build"
 [project]
 name = "dmarcguard"
 version = "0.0.1"
-description = "Official Python SDK for DMARCGuard"
+description = "Official Python SDK for DMARCguard — DMARC, SPF, and DKIM monitoring for email deliverability and anti-spoofing."
 readme = "README.md"
 license = "Apache-2.0"
+license-files = ["LICENSE"]
 requires-python = ">=3.8"
 authors = [
-    { name = "DMARCGuard", email = "support@dmarcguard.com" },
+    { name = "DMARCguard", email = "support@dmarcguard.io" },
+]
+maintainers = [
+    { name = "DMARCguard", email = "support@dmarcguard.io" },
+]
+keywords = [
+    "dmarc",
+    "spf",
+    "dkim",
+    "email",
+    "email-security",
+    "email-authentication",
+    "deliverability",
+    "anti-spoofing",
+    "anti-phishing",
+    "dmarcguard",
+    "sdk",
 ]
 classifiers = [
-    "Development Status :: 1 - Planning",
-    "Programming Language :: Python :: 3",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Information Technology",
     "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Communications :: Email",
+    "Topic :: Internet",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
 ]
 
 [project.urls]
-Homepage = "https://github.com/dmarcguardhq/dmarcguard-sdk-python"
+Homepage = "https://dmarcguard.io"
+Documentation = "https://dmarcguard.io/docs"
 Repository = "https://github.com/dmarcguardhq/dmarcguard-sdk-python"
+Issues = "https://github.com/dmarcguardhq/dmarcguard-sdk-python/issues"
+Changelog = "https://github.com/dmarcguardhq/dmarcguard-sdk-python/blob/main/CHANGELOG.md"
+
+[tool.hatch.build.targets.wheel]
+packages = ["dmarcguard"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "dmarcguard",
+    "README.md",
+    "LICENSE",
+    "pyproject.toml",
+]
