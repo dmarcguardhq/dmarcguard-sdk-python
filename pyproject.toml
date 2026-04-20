@@ -5,16 +5,16 @@ build-backend = "hatchling.build"
 [project]
 name = "dmarcguard"
 version = "0.0.1"
-description = "Official Python SDK for DMARCGuard — DMARC, SPF, and DKIM monitoring for email deliverability and anti-spoofing."
+description = "Official Python SDK for DMARCguard — DMARC, SPF, and DKIM monitoring for email deliverability and anti-spoofing."
 readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
 requires-python = ">=3.8"
 authors = [
-    { name = "DMARCGuard", email = "support@dmarcguard.io" },
+    { name = "DMARCguard", email = "support@dmarcguard.io" },
 ]
 maintainers = [
-    { name = "DMARCGuard", email = "support@dmarcguard.io" },
+    { name = "DMARCguard", email = "support@dmarcguard.io" },
 ]
 keywords = [
     "dmarc",

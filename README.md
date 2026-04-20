@@ -1,6 +1,6 @@
 # dmarcguard-sdk-python
 
-Official Python SDK for [DMARCGuard](https://dmarcguard.io) — DMARC, SPF, and
+Official Python SDK for [DMARCguard](https://dmarcguard.io) — DMARC, SPF, and
 DKIM monitoring for email deliverability and anti-spoofing.
 
 > [!NOTE]
